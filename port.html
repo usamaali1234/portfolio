@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="name">Syed Usama</span></h1>
+            <BR>
+            <p style="color: white;">I am a passionate Web Developer focused on creating engaging user experiences.</p>
+            <BR>
+            <a href="#contact" class="cta-btn">Hire Me</a>
+            <img src="OIP (1).jpeg" alt="" class="opil">
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="content">
+            <h2 style="color: white;">About Me</h2>
+            <p style="color: white;">Hi, I'm [syed usama], a passionate and dedicated web developer with a strong foundation in both front-end and back-end development. My goal is to create intuitive and visually appealing websites that provide seamless user experiences. With expertise in HTML, CSS, JavaScript, and modern frameworks like React and Node.js, I specialize in building responsive, scalable, and performance-optimized web applications. I believe that every line of code should have purpose and meaning, and I strive to continuously learn and improve my skills to stay ahead of the latest web technologies. Whether you're looking for a personal website, a business platform, or a full-stack solution, I'm here to bring your ideas to life with clean, efficient, and robust code.
+
+                .</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="content">
+            <h2 style="color: white;">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill">HTML5</div>
+                <div class="skill">CSS3</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">UI,UX</div>
+                <div class="skill">Node.js</div>
+                <div class="skill">BOOTSTRAP</div>
+                <div class="skill">Git</div>
+                <div class="skill">GRAPHIC DESIGHNING</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="content">
+            <h2 style="color: white;">My Projects</h2>
+            <div class="project-card">
+                <img src="th (4).jpeg" alt="Project 1">
+                <h3>FRONT END OF WEB</h3>
+                <p>A full-stack e-commerce application built with React, Node.js, and MongoDB.</p>
+                <BR>
+                <a href="https://github.com/yourusername/project1" target="_blank" class="cta-btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="OIP.jpeg" alt="Project 2">
+                <h3>Aditing</h3>
+                <p>This is my personal portfolio built with ADOBE photoshop, illustrator, and xd to showcase my skills and work.</p>
+                <BR>
+                <a href="https://github.com/yourusername/project2" target="_blank" class="cta-btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="content">
+            <h2 style="color: white;">Contact Me</h2>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Address</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+1
+
+                <button type="submit" class="cta-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <!-- Optional JavaScript for smooth scrolling -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
